@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    public class AmericanCrow : Corvidae
+    class AmericanCrow : Corvidae
     {
         public override string colorType { get; set; }
 

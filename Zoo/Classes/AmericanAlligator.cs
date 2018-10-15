@@ -4,8 +4,18 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    public class AmericanAlligator : Crocodilia
+    class AmericanAlligator : Crocodilia
     {
+        public override int numTeeth { get; set; }
 
+        public override string Sound()
+        {
+            return "Alligator noises";
+        }
+
+        public override int SubmergeTime()
+        {
+            return 35;
+        }
     }
 }
