@@ -22,7 +22,7 @@ namespace Zoo.Classes
 
         public virtual string Sound()
         {
-            return "bird noise";
+            return "caw caw";
         }
 
         public virtual int FlyingRange()

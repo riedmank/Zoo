@@ -6,6 +6,16 @@ namespace Zoo.Classes
 {
     public class WesternJackdaw : Corvidae
     {
+        public override string colorType { get; set; }
 
+        public override string Sound()
+        {
+            return "Jackdaw caw caw";
+        }
+
+        public override int FlyingRange()
+        {
+            return 20;
+        }
     }
 }
