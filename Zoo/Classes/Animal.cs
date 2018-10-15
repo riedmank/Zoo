@@ -9,10 +9,8 @@ namespace Zoo
         public abstract bool canSwim { get; set; }
         public abstract bool canFly { get; set; }
 
-        public abstract void Sleep();
+        public abstract string Sleep();
 
-        public abstract void Eat();
-
-        public abstract void Sound();
+        public abstract string Eat();
     }
 }
