@@ -10,21 +10,37 @@ namespace Zoo.Classes
         public override bool canFly { get; set; }
         public virtual int numTeeth { get; set; }
 
+        /// <summary>
+        /// Method overrides sleep method from Animal class
+        /// </summary>
+        /// <returns>Returns a string</returns>
         public override string Sleep()
         {
             return "zzz";
         }
 
+        /// <summary>
+        /// Method overrides eat method from Animal class
+        /// </summary>
+        /// <returns>Returns a string</returns>
         public override string Eat()
         {
             return "nom nom nom"; 
         }
 
+        /// <summary>
+        /// Virtual method of the sound the animal makes
+        /// </summary>
+        /// <returns>Returns a string</returns>
         public virtual string Sound()
         {
             return "reptile noises";
         }
 
+        /// <summary>
+        /// Virtual method of the time the animal can be underwater
+        /// </summary>
+        /// <returns>Returns an integer</returns>
         public virtual int SubmergeTime()
         {
             return 20;

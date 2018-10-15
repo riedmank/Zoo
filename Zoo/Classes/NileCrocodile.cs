@@ -8,11 +8,19 @@ namespace Zoo.Classes
     {
         public override int numTeeth { get; set; }
 
+        /// <summary>
+        /// Sound a crocodile makes
+        /// </summary>
+        /// <returns>Returns a string</returns>
         public override string Sound()
         {
             return "Crocodile noises";
         }
 
+        /// <summary>
+        /// Time a crocodile can be submerged
+        /// </summary>
+        /// <returns>Returns an integer</returns>
         public override int SubmergeTime()
         {
             return 45;

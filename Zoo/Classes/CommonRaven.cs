@@ -8,11 +8,19 @@ namespace Zoo.Classes
     {
         public override string colorType { get; set; }
 
+        /// <summary>
+        /// Sound a raven makes
+        /// </summary>
+        /// <returns>Returns a string</returns>
         public override string Sound()
         {
             return "Raven caw caw";
         }
 
+        /// <summary>
+        /// Range a raven can fly
+        /// </summary>
+        /// <returns>Returns an integer</returns>
         public override int FlyingRange()
         {
             return 45;
