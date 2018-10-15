@@ -2,7 +2,7 @@
 ## Description
 This is a sample zoo hierarchy that shows the relationships between classes and derived classes using the fun backdrop of a fictional zoo made up of Crows and Crocodiles.
 
-![Zoo Diagram](ClassDiagram.jpg)
+![Zoo Diagram](ClassDiagram.png)
 
 ## OOP Principles
 ### Encapsulation
