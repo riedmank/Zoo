@@ -36,14 +36,5 @@ namespace Zoo.Classes
         {
             return "reptile noises";
         }
-
-        /// <summary>
-        /// Virtual method of the time the animal can be underwater
-        /// </summary>
-        /// <returns>Returns an integer</returns>
-        public virtual int SubmergeTime()
-        {
-            return 20;
-        }
     }
 }

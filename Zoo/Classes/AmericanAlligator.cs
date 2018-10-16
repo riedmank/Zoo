@@ -16,14 +16,5 @@ namespace Zoo.Classes
         {
             return "Alligator noises";
         }
-
-        /// <summary>
-        /// Time an alligator can be submerged
-        /// </summary>
-        /// <returns>Returns an integer</returns>
-        public override int SubmergeTime()
-        {
-            return 35;
-        }
     }
 }
