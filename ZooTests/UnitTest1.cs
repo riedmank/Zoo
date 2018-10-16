@@ -20,9 +20,9 @@ namespace ZooTests
         }
 
         [Fact]
-        public void CaimanCanEat()
+        public void KangarooCanEat()
         {
-            Assert.Equal("nom nom nom", CaimanEat());
+            Assert.Equal("nom nom nom", KangarooEat());
         }
 
         [Fact]
@@ -38,12 +38,6 @@ namespace ZooTests
         }
 
         [Fact]
-        public void JackdawCanEat()
-        {
-            Assert.Equal("nom nom nom", JackdawEat());
-        }
-
-        [Fact]
         public void AlligatorCanSleep()
         {
             Assert.Equal("zzz", AlligatorSleep());
@@ -56,9 +50,9 @@ namespace ZooTests
         }
 
         [Fact]
-        public void CaimanCanSleep()
+        public void KangarooCanSleep()
         {
-            Assert.Equal("zzz", CaimanSleep());
+            Assert.Equal("zzz", KangarooSleep());
         }
 
         [Fact]
@@ -74,9 +68,15 @@ namespace ZooTests
         }
 
         [Fact]
-        public void JackdawCanSleep()
+        public void KangarooCanHop()
         {
-            Assert.Equal("zzz", JackdawSleep());
+            Assert.Equal("Hop Hop Hop", KangarooHop());
+        }
+
+        [Fact]
+        public void WallabyCanHop()
+        {
+            Assert.Equal("Hop Hop Hop", WallabyHop());
         }
     }
 }

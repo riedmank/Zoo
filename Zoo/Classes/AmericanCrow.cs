@@ -16,14 +16,5 @@ namespace Zoo.Classes
         {
             return "Crow caw caw";
         }
-
-        /// <summary>
-        /// Range a crow can fly
-        /// </summary>
-        /// <returns>Returns an integer</returns>
-        public override int FlyingRange()
-        {
-            return 35;
-        }
     }
 }

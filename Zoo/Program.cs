@@ -15,10 +15,7 @@ namespace Zoo
             Crocodile.numTeeth = 60;
             Crocodile.canFly = false;
             Crocodile.canSwim = true;
-            SpectacledCaiman Caiman = new SpectacledCaiman();
-            Caiman.numTeeth = 40;
-            Caiman.canFly = false;
-            Crocodile.canSwim = true;
+            
 
             AmericanCrow Crow = new AmericanCrow();
             Crow.colorType = "black";
@@ -28,10 +25,7 @@ namespace Zoo
             Raven.colorType = "slightly darker black";
             Raven.canFly = true;
             Raven.canSwim = false;
-            WesternJackdaw Jackdaw = new WesternJackdaw();
-            Jackdaw.colorType = "gray";
-            Jackdaw.canFly = true;
-            Jackdaw.canSwim = false;
+           
         }
 
         /// <summary>
@@ -58,10 +52,10 @@ namespace Zoo
         /// Method created for test
         /// </summary>
         /// <returns>Returns a string</returns>
-        public static string CaimanEat()
+        public static string KangarooEat()
         {
-            SpectacledCaiman Caiman = new SpectacledCaiman();
-            return Caiman.Eat();
+            RedKangaroo Kangaroo = new RedKangaroo();
+            return Kangaroo.Eat();
         }
 
         /// <summary>
@@ -88,16 +82,6 @@ namespace Zoo
         /// Method created for test
         /// </summary>
         /// <returns>Returns a string</returns>
-        public static string JackdawEat()
-        {
-            WesternJackdaw Jackdaw = new WesternJackdaw();
-            return Jackdaw.Eat();
-        }
-
-        /// <summary>
-        /// Method created for test
-        /// </summary>
-        /// <returns>Returns a string</returns>
         public static string AlligatorSleep()
         {
             AmericanAlligator Alligator = new AmericanAlligator();
@@ -118,10 +102,10 @@ namespace Zoo
         /// Method created for test
         /// </summary>
         /// <returns>Returns a string</returns>
-        public static string CaimanSleep()
+        public static string KangarooSleep()
         {
-            SpectacledCaiman Caiman = new SpectacledCaiman();
-            return Caiman.Sleep();
+            RedKangaroo Kangaroo = new RedKangaroo();
+            return Kangaroo.Sleep();
         }
 
         /// <summary>
@@ -148,10 +132,20 @@ namespace Zoo
         /// Method created for test
         /// </summary>
         /// <returns>Returns a string</returns>
-        public static string JackdawSleep()
+        public static string KangarooHop()
         {
-            WesternJackdaw Jackdaw = new WesternJackdaw();
-            return Jackdaw.Sleep();
+            RedKangaroo Kangaroo = new RedKangaroo();
+            return Kangaroo.Hop();
+        }
+
+        /// <summary>
+        /// Method created for test
+        /// </summary>
+        /// <returns>Returns a string</returns>
+        public static string WallabyHop()
+        {
+            AgileWallaby Wallaby = new AgileWallaby();
+            return Wallaby.Hop();
         }
     }
 }

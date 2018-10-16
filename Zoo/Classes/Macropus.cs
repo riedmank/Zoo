@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    public abstract class Corvidae : Animal
+    public abstract class Macropus : Australosphenida
     {
+        public virtual string SubGenus { get; set; }
         public override bool canSwim { get; set; }
         public override bool canFly { get; set; }
-        public virtual string colorType { get; set; }
 
         /// <summary>
         /// Method overrides sleep method from Animal class
@@ -26,15 +26,6 @@ namespace Zoo.Classes
         public override string Eat()
         {
             return "nom nom nom";
-        }
-
-        /// <summary>
-        /// Virtual method of the sound the animal makes
-        /// </summary>
-        /// <returns>Returns a string</returns>
-        public virtual string Sound()
-        {
-            return "caw caw";
         }
     }
 }
