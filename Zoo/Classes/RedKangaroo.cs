@@ -25,7 +25,7 @@ namespace Zoo.Classes
         /// <returns>Returns a string</returns>
         public override string Hop()
         {
-            return "Hop Hop Hop";
+            return "Kangaroo Hop Hop Hop";
         }
     }
 }

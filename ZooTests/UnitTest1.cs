@@ -70,13 +70,13 @@ namespace ZooTests
         [Fact]
         public void KangarooCanHop()
         {
-            Assert.Equal("Hop Hop Hop", KangarooHop());
+            Assert.Equal("Kangaroo Hop Hop Hop", KangarooHop());
         }
 
         [Fact]
         public void WallabyCanHop()
         {
-            Assert.Equal("Hop Hop Hop", WallabyHop());
+            Assert.Equal("Wallaby Hop Hop Hop", WallabyHop());
         }
 
         [Fact]
@@ -95,6 +95,12 @@ namespace ZooTests
         public void ProveRavenInheritsFromCorvidae()
         {
             Assert.True(RavenCanInherit());
+        }
+
+        [Fact]
+        public void ProveMethodOverride()
+        {
+            Assert.NotEqual("Hop Hop Hop", KangarooHop());
         }
     }
 }

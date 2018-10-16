@@ -8,7 +8,7 @@ namespace Zoo.Classes
     {
         public virtual string Hop()
         {
-            return "Hop Hop Hop";
+            return "Normal Hop Hop Hop";
         }
     }
 }
