@@ -147,5 +147,22 @@ namespace Zoo
             AgileWallaby Wallaby = new AgileWallaby();
             return Wallaby.Hop();
         }
+
+        /// <summary>
+        /// Method created for test
+        /// </summary>
+        /// <returns>Returns a string</returns>
+        public static string KangarooDig()
+        {
+            RedKangaroo Kangaroo = new RedKangaroo();
+            return Kangaroo.DigAHole();
+        }
+
+        
+        public static int RavenLayEggs()
+        {
+            CommonRaven Raven = new CommonRaven();
+            return Raven.LayEggs();
+        }
     }
 }

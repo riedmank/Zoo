@@ -78,5 +78,17 @@ namespace ZooTests
         {
             Assert.Equal("Hop Hop Hop", WallabyHop());
         }
+
+        [Fact]
+        public void KangarooCanDig()
+        {
+            Assert.Equal("I dug a hole", KangarooDig());
+        }
+
+        [Fact]
+        public void RavenCanLayEggs()
+        {
+            Assert.Equal(5, RavenLayEggs());
+        }
     }
 }

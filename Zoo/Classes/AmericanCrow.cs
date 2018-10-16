@@ -16,7 +16,7 @@ namespace Zoo.Classes
         /// <returns>Returns number of eggs laid</returns>
         public int LayEggs()
         {
-            return 8;
+            return 3;
         }
 
         /// <summary>
