@@ -102,5 +102,11 @@ namespace ZooTests
         {
             Assert.NotEqual("Hop Hop Hop", KangarooHop());
         }
+
+        [Fact]
+        public void ProveConcreteAnimalIsAnAnimal()
+        {
+            Assert.True(KangarooIsConcrete() is Animal);
+        }
     }
 }

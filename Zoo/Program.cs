@@ -1,5 +1,6 @@
 ﻿using System;
 using Zoo.Classes;
+using Zoo.Interfaces;
 
 namespace Zoo
 {
@@ -25,7 +26,6 @@ namespace Zoo
             Raven.colorType = "slightly darker black";
             Raven.canFly = true;
             Raven.canSwim = false;
-           
         }
 
         /// <summary>
@@ -177,6 +177,16 @@ namespace Zoo
             CommonRaven Raven = new CommonRaven();
             Raven.canFly = true;
             return Raven.canFly;
+        }
+
+        /// <summary>
+        /// Method created for test
+        /// </summary>
+        /// <returns>Returns an animal object</returns>
+        public static Animal KangarooIsConcrete()
+        {
+            Animal Kangaroo = new RedKangaroo();
+            return Kangaroo;
         }
     }
 }
