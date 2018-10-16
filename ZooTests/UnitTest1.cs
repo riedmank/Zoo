@@ -90,5 +90,11 @@ namespace ZooTests
         {
             Assert.Equal(5, RavenLayEggs());
         }
+
+        [Fact]
+        public void ProveRavenInheritsFromCorvidae()
+        {
+            Assert.True(RavenCanInherit());
+        }
     }
 }

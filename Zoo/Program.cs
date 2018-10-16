@@ -158,11 +158,25 @@ namespace Zoo
             return Kangaroo.DigAHole();
         }
 
-        
+        /// <summary>
+        /// Method created for test
+        /// </summary>
+        /// <returns>Returns an int</returns>
         public static int RavenLayEggs()
         {
             CommonRaven Raven = new CommonRaven();
             return Raven.LayEggs();
+        }
+
+        /// <summary>
+        /// Method created for test
+        /// </summary>
+        /// <returns>Returns a bool</returns>
+        public static bool RavenCanInherit()
+        {
+            CommonRaven Raven = new CommonRaven();
+            Raven.canFly = true;
+            return Raven.canFly;
         }
     }
 }
